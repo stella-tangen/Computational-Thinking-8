@@ -1,3 +1,4 @@
+#start
 import turtle
 
 t = turtle.Turtle()
@@ -5,6 +6,8 @@ t = turtle.Turtle()
 t.goto(100, 0)
 t.color("pink")
 turtle.Screen() .bgcolor("black")
+
+# first shape
 
 for i in range(200):
     t.forward(100 + i)
